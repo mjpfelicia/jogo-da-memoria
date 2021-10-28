@@ -16,11 +16,12 @@
         display: grid;
         grid-template-areas: 'verde vermelho' 'amarelo azul';
         grid-gap: 10px;
-        border: 2px #0b2b6b;
         background-color: #fff;
         border-radius: 100%;
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
+        box-shadow: inset 0 0 1em rgb(73, 63, 218), 0 0 1em #648ee0;
+        ;
     }
     
     .blue {
